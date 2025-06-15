@@ -1,4 +1,4 @@
-<h1 align="center">Kaoru — Indie Maker & Minimalist</h1>
+<h1 align="center">Goto — Indie Maker & Minimalist</h1>
 
 <p align="center">
   Building <a href="https://quietview.app">Quiet View</a> and other quiet, beautiful things.
