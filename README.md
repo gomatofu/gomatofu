@@ -1,16 +1,46 @@
-## Hi there 👋
+<h1 align="center">Kaoru — Indie Maker & Minimalist</h1>
 
-<!--
-**gomatofu/gomatofu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Building <a href="https://quietview.app">Quiet View</a> and other quiet, beautiful things.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  📍 Based in Manila / Tokyo (GMT+8 / GMT+9)
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🧠 Now
+
+- Building: Quiet View
+- Exploring: Ambient UI / Personal SaaS
+
+---
+
+### 🛠 Tech I Use
+
+- TypeScript / Next.js
+- Supabase / Firebase
+- Tailwind CSS / Riverpod (Flutter)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gomatofu&show_icons=true&theme=calm" alt="Kaoru's GitHub stats" width="480" />
+</p>
+
+---
+
+### 🌱 GitHub Contribution Garden
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+</p>
+
+---
+
+<p align="center">
+  <em>"Yes is the new maybe." — Yes Man</em>
+</p>
