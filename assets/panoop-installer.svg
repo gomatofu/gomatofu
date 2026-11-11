@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="142" viewBox="0 0 450 142" role="img" aria-labelledby="title description">
+  <title id="title">Building Panoop</title>
+  <desc id="description">A Windows 95 style installer window with a repeating blue progress bar. Panoop is being built by gomatofu.</desc>
+  <defs>
+    <pattern id="blocks" width="13" height="17" patternUnits="userSpaceOnUse">
+      <rect width="10" height="17" fill="#000080"/>
+    </pattern>
+    <clipPath id="progress-clip">
+      <rect class="progress" x="22" y="78" width="188" height="17">
+        <animate attributeName="width" values="26;26;406;406;26" keyTimes="0;0.12;0.8;0.98;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: Tahoma, Verdana, Arial, sans-serif; }
+    .progress-static { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .progress-fill { display: none; }
+      .progress-static { display: inline; }
+    }
+  </style>
+  <rect width="450" height="142" fill="#c0c0c0"/>
+  <path d="M0 141V0H449" fill="none" stroke="#dfdfdf"/>
+  <path d="M1 140V1H448" fill="none" stroke="#fff"/>
+  <path d="M449 0V141H0" fill="none" stroke="#000"/>
+  <path d="M448 1V140H1" fill="none" stroke="#808080"/>
+  <rect x="4" y="4" width="442" height="23" fill="#000080"/>
+  <text x="10" y="20" fill="#fff" font-size="13" font-weight="700">Panoop Setup</text>
+  <g aria-hidden="true" fill="#c0c0c0" stroke-width="1">
+    <path d="M394 8H409V23H394Z M411 8H426V23H411Z M428 8H443V23H428Z"/>
+    <path d="M394 23V8H409 M411 23V8H426 M428 23V8H443" fill="none" stroke="#fff"/>
+    <path d="M409 8V23H394 M426 8V23H411 M443 8V23H428" fill="none" stroke="#000"/>
+    <path d="M397 19H405 M415 12H422V18H415Z M432 12L439 19 M439 12L432 19" fill="none" stroke="#000" stroke-width="1.5"/>
+  </g>
+  <text x="20" y="57" fill="#111" font-size="13">Building Panoop...</text>
+  <path d="M19 98V75H431" fill="none" stroke="#808080"/>
+  <path d="M20 97V76H430" fill="none" stroke="#000"/>
+  <path d="M431 75V98H19" fill="none" stroke="#fff"/>
+  <path d="M430 76V97H20" fill="none" stroke="#dfdfdf"/>
+  <rect class="progress-fill" x="22" y="78" width="406" height="17" fill="url(#blocks)" clip-path="url(#progress-clip)"/>
+  <rect class="progress-static" x="22" y="78" width="240" height="17" fill="url(#blocks)"/>
+  <path d="M6 135V115H444" fill="none" stroke="#808080"/>
+  <path d="M444 115V135H6" fill="none" stroke="#fff"/>
+  <text x="12" y="129" fill="#333" font-size="11">Made by gomatofu</text>
+</svg>
